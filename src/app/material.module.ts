@@ -5,6 +5,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 
 
@@ -16,13 +17,15 @@ import {MatCardModule} from '@angular/material/card';
     MatToolbarModule,
     MatButtonModule,
     MatSliderModule,
-    MatCardModule
+    MatCardModule,
+    MatSnackBarModule
   ],
   exports:[
     MatToolbarModule,
     MatButtonModule,
     MatSliderModule,
-    MatCardModule
+    MatCardModule,
+    MatSnackBarModule
 
   ]
 })
