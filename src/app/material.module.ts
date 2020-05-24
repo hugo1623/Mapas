@@ -4,11 +4,9 @@ import { CommonModule } from '@angular/common';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
-import {MatCardModule} from '@angular/material/card';
-import {MatSnackBarModule} from '@angular/material/snack-bar';
-
-
-
+import { MatCardModule } from '@angular/material/card';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatDialogModule } from '@angular/material/dialog';
 
 @NgModule({
   declarations: [],
@@ -18,15 +16,16 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     MatButtonModule,
     MatSliderModule,
     MatCardModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatDialogModule,
   ],
-  exports:[
+  exports: [
     MatToolbarModule,
     MatButtonModule,
     MatSliderModule,
     MatCardModule,
-    MatSnackBarModule
-
-  ]
+    MatSnackBarModule,
+    MatDialogModule,
+  ],
 })
-export class MaterialModule { }
+export class MaterialModule {}
