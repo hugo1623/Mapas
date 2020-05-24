@@ -27,7 +27,8 @@ export class MapaEditarComponent implements OnInit {
   ngOnInit(): void {
   }
   guardarCambios(){
-    console.log('!!');
+    this.dialogRef.close(this.forma.value );
+    // console.log( this.forma.value );
   }
   onNoClick(): void {
     this.dialogRef.close();
